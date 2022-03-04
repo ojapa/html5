@@ -33,14 +33,23 @@
 	</section>
 
 	<section id="cursos" class="flexivel">
-		<article data-anima="esquerda">
-			Esq
+		<article  data-anima="esquerda containerCursos">
+			<img class="mini" src="imagens/1.jpg" onclick="cliqueModal(this)" alt="Imagem 1">
+			<img class="mini" src="imagens/2.jpg" onclick="cliqueModal(this)" alt="Imagem 2">
+			<img class="mini" src="imagens/3.jpg" onclick="cliqueModal(this)" alt="Imagem 3">
+			<img class="mini" src="imagens/4.jpg" onclick="cliqueModal(this)" alt="Imagem 4">
 		</article>
 		<article data-anima="centro">
-			Centro
+			<img class="mini" src="imagens/5.jpg" onclick="cliqueModal(this)" alt="Imagem 5">
+			<img class="mini" src="imagens/6.jpg" onclick="cliqueModal(this)" alt="Imagem 6">
+			<img class="mini" src="imagens/7.jpg" onclick="cliqueModal(this)" alt="Imagem 7">
+			<img class="mini" src="imagens/8.jpg" onclick="cliqueModal(this)" alt="Imagem 8">
 		</article>
 		<article data-anima="direita">
-			Dir
+			<img class="mini" src="imagens/1.jpg" onclick="cliqueModal(this)" alt="Imagem 1">
+			<img class="mini" src="imagens/2.jpg" onclick="cliqueModal(this)" alt="Imagem 2">
+			<img class="mini" src="imagens/3.jpg" onclick="cliqueModal(this)" alt="Imagem 3">
+			<img class="mini" src="imagens/4.jpg" onclick="cliqueModal(this)" alt="Imagem 4">
 		</article>
 	</section>
 
@@ -63,18 +72,25 @@
 	</section>
 
 	<section id="contato" class="flexivel parallax p2">
-		<article  data-anima="esquerda">
-			Contato Esq
+		<article data-anima="esquerda">
+			Esq
 		</article>
 		<article data-anima="centro">
-			Contato centro
+			Centro
 		</article>
 		<article data-anima="direita">
-			Contato dir
+			Dir
 		</article>
 	</section>
 
 	<footer></footer>
+
+	<!-- Janela Modal -->
+	<div id="janelaModal" class="janelaModal escondeJanelaModal">
+		<span id="btnFechar" class="fecharModal">x</span>
+		<img src="" alt="" id="imgModal" class="imgModal">
+		<div id="txtModal" class="txtModal"></div>
+	</div><!--/janelaModal -->
 
 	<script type="text/javascript" src="scripts.js"></script>
 
