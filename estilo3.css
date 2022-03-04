@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: Arial;
+}
+
+.menuContainer {
+	width: 300px;
+	padding: 15px 0px;
+	background-color: #bbb;
+}
+
+.menuContainer li a {
+	padding: 12px;
+	text-decoration: none;
+	color: #000;
+	display: block;
+}
+
+.menuContainer li a:hover {
+	background-color: #eee;
+}
+
+.menuContainer h2 {
+	padding-left: 10px;
+}
+
+#pesquisa {
+	width: 100%;
+	font-size: 18px;
+	padding: 11px;
+	border: 1px solid #ddd;
+}
+
+#menu {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.borda {
+	border: 1px solid #000;
+}
